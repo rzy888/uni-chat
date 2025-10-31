@@ -1,0 +1,357 @@
+{
+    "pages": [
+        {
+            // 位置放第一个就是首页
+            "path": "pages/SplashPage",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "animationType": "none",
+                    "animationDuration": 100
+                }
+            }
+        },
+        {
+            "path": "pages/login/LoginPage",
+            "style": {
+                "navigationBarTitleText": "野火IM"
+            }
+        },
+        {
+            "path": "pages/conversationList/ConversationListPage",
+            "style": {
+                "navigationBarTitleText": "会话列表",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue657",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "28px"
+                            },
+                            {
+                                "text": "\ue636",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "26px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/conversation/ConversationPage",
+            "style": {
+                "navigationBarTitleText": "会话详情",
+                "enablePullDownRefresh": false,
+                "disableScroll": true,
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue623",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "28px"
+                            }
+                        ]
+                    },
+                    "softinputMode": "adjustResize",
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/conversation/message/CompositeMessagePage",
+            "style": {
+                "navigationBarTitleText": "组合消息预览"
+            }
+        },
+        {
+            "path": "pages/conversation/SingleConversationInfoPage",
+            "style": {
+                "navigationBarTitleText": "单人会话信息"
+            }
+        },
+        {
+            "path": "pages/conversation/message/forward/ForwardMessagePage",
+            "style": {
+                "navigationBarTitleText": "消息转发"
+            }
+        },
+        {
+            "path": "pages/conversation/GroupConversationInfoPage",
+            "style": {
+                "navigationBarTitleText": "群会话信息"
+            }
+        },
+        {
+            "path": "pages/contact/SearchUserPage",
+            "style": {
+                "navigationBarTitleText": "搜索用户"
+            }
+        },
+        {
+            "path": "pages/contact/OrganizationTreePage",
+            "style": {
+                "navigationBarTitleText": "组织结构"
+            }
+        },
+        {
+            "path": "pages/contact/ChannelListPage",
+            "style": {
+                "navigationBarTitleText": " 频道列表",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue657",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "28px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/search/SearchPortalPage",
+            "style": {
+                "navigationBarTitleText": "搜索"
+            }
+        },
+        {
+            "path": "pages/search/SearchConversationMessagePage",
+            "style": {
+                "navigationBarTitleText": "会话消息搜索"
+            }
+        },
+        {
+            "path": "pages/contact/UserDetailPage",
+            "style": {
+                "navigationBarTitleText": "用户信息"
+            }
+        },
+        {
+            "path": "pages/contact/FriendRequestDetailPage",
+            "style": {
+                "navigationBarTitleText": "好友请求"
+            }
+        },
+        {
+            "path": "pages/contact/ContactListPage",
+            "style": {
+                "navigationBarTitleText": "好友",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue657",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "28px"
+                            },
+                            {
+                                "text": "\ue636",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "26px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/contact/NewFriendListPage",
+            "style": {
+                "navigationBarTitleText": "新朋友",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue63f",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "20px"
+                            },
+                            {
+                                "text": "\uE611",
+                                "fontSrc": "/static/iconfonts/wx_iconfont.ttf",
+                                "fontSize": "26px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/contact/GroupListPage",
+            "style": {
+                "navigationBarTitleText": "我的群组"
+            }
+        },
+        {
+            "path": "pages/pick/PickUserPage",
+            "style": {
+                "navigationBarTitleText": "选择联系人"
+            }
+        },
+        {
+            "path": "pages/pick/PickSingleUserPage",
+            "style": {
+                "navigationBarTitleText": "选择单个联系人"
+            }
+        },
+        {
+            "path": "pages/workspace/WorkspacePage",
+            "style": {
+                "navigationBarTitleText": " 工作台"
+            }
+        },
+        {
+            "path": "pages/workspace/WorkspaceWebViewPage",
+            "style": {
+                "navigationBarTitleText": "页面加载中..."
+            }
+        },
+        {
+            "path": "pages/discovery/DiscoveryPage",
+            "style": {
+                "navigationBarTitleText": "发现"
+            }
+        },
+        {
+            "path": "pages/discovery/ChatroomListPage",
+            "style": {
+                "navigationBarTitleText": "聊天室列表"
+            }
+        },
+        {
+            "path": "pages/me/MePage",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/misc/WebViewPage",
+            "style": {
+                "navigationBarTitleText": "页面加载中..."
+            }
+        },
+        {
+            "path": "pages/misc/PreviewVideoPage",
+            "style": {
+                "navigationBarTitleText": "视频预览"
+            }
+        },
+        {
+            "path": "pages/voip/Single",
+            "style": {
+                "titleNView": false,
+                "navigationBarTitleText": "单人音视频通话",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/voip/Multi",
+            "style": {
+                "titleNView": false,
+                "navigationBarTitleText": "多人音视频通话",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/voip/conference/ConferencePortalPage",
+            "style": {
+                "navigationBarTitleText": "会议"
+            }
+        },
+        {
+            "path": "pages/voip/conference/JoinConferencePage",
+            "style": {
+                "navigationBarTitleText": " 加入会议"
+            }
+        },
+        {
+            "path": "pages/voip/conference/CreateConferencePage",
+            "style": {
+                "navigationBarTitleText": "发起会议"
+            }
+        },
+        {
+            "path": "pages/voip/conference/OrderConferencePage",
+            "style": {
+                "navigationBarTitleText": "预定会议"
+            }
+        },
+        {
+            "path": "pages/voip/conference/ConferenceInfoPage",
+            "style": {
+                "navigationBarTitleText": "会议详情"
+            }
+        },
+        {
+            "path": "pages/voip/conference/ConferencePage",
+            "style": {
+                "titleNView": false,
+                "navigationBarTitleText": "音视频会议",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/voip/conference/ConferenceManagePage",
+            "style": {
+                "navigationBarTitleText": "会议管理"
+            }
+        },
+        {
+            "path": "pages/misc/ApiTestPage",
+            "style": {
+                "navigationBarTitleText": "API测试"
+            }
+        }
+    ],
+    "tabBar": {
+        "selectedColor": "#3B62E0",
+        "color": "#7f8389",
+        "list": [
+            {
+                "pagePath": "pages/conversationList/ConversationListPage",
+                "text": "野火",
+                "iconPath": "static/image/tabbar/message_normal.png",
+                "selectedIconPath": "static/image/tabbar/message_press.png"
+            },
+            {
+                "pagePath": "pages/contact/ContactListPage",
+                "text": "通讯录",
+                "iconPath": "static/image/tabbar/contact_normal.png",
+                "selectedIconPath": "static/image/tabbar/contact_press.png"
+            },
+            {
+                "pagePath": "pages/workspace/WorkspacePage",
+                "text": "工作台",
+                "iconPath": "static/image/tabbar/work_normal.png",
+                "selectedIconPath": "static/image/tabbar/work_press.png"
+            },
+            {
+                "pagePath": "pages/discovery/DiscoveryPage",
+                "text": "发现",
+                "iconPath": "static/image/tabbar/discovery_normal.png",
+                "selectedIconPath": "static/image/tabbar/discovery_press.png"
+            },
+            {
+                "pagePath": "pages/me/MePage",
+                "text": "我的",
+                "iconPath": "static/image/tabbar/me_normal.png",
+                "selectedIconPath": "static/image/tabbar/me_press.png"
+            }
+        ],
+        "backgroundColor": "white"
+    },
+    "sitemapLocation": "sitemap.json",
+    "globalStyle": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "野火IM",
+        "navigationBarTextStyle": "black"
+    },
+    "subPackages": []
+}

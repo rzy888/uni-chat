@@ -1,0 +1,6 @@
+node_modules
+unpackage/resources/__UNI__*
+unpackage
+.hbuilderx
+.idea
+nativeplugins
